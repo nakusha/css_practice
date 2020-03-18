@@ -8,9 +8,12 @@
         <style>
             .father {
                 display: grid;
-                grid-template-columns: 30px 50px 40px;
-                grid-template-rows: 30px 12px;
-                grid-gap: 10px;
+                grid-template-columns: 300px 150px;
+                grid-template-rows: 300px 120px;
+                grid-gap: 5px;
+                /* Auto 셋팅을 해놓으면 미리 설정된 것보다 많은 grid가 생성될때 자동으로 해줌 */
+                grid-auto-rows: 60px;
+                grid-auto-flow: row;
             }
             .box{
                 background-color: #f1c40f;
@@ -19,11 +22,15 @@
     </head>
     <body>
         <div class="father">
-            <div class="box">1</div>
-            <div class="box">2</div>
-            <div class="box">3</div>
-            <div class="box">4</div>
-            <div class="box">5</div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
         </div>
     </body>
 </html>
