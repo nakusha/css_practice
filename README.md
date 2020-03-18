@@ -31,15 +31,15 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
 - [X] Installing Parcel
 > yarn global add parcel-bundle
 > https://parceljs.org/
-- [ ] Configuring PostCSS
+- [X] Configuring PostCSS
 > yarn add postcss-preset-env
 > https://preset-env.cssdb.org/
 > https://www.postcss.parts
-- [ ] Testing
+- [X] Testing
 
 ### CSS4 Awesomeness
 
-- [ ] :matches , :not
+- [X] :matches , :not
 - [ ] CSS Variables
 - [ ] @custom-selector
 - [ ] @custom-media
