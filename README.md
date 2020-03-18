@@ -20,7 +20,7 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
 - [X] auto-fill, auto-fit
 - [X] Justify Content, Align Content and Place Content
 - [X] Justify Items, Align Items and Place Items
-- [ ] Grid Column, Column Start and End
+- [X] Grid Column, Column Start and End
 - [ ] Line Naming
 - [ ] Grid Row, Row Start and End
 - [ ] Grid Area
