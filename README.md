@@ -28,8 +28,13 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
 
 ### Using CSS4
 
-- [ ] Installing Parcel
+- [X] Installing Parcel
+> yarn global add parcel-bundle
+> https://parceljs.org/
 - [ ] Configuring PostCSS
+> yarn add postcss-preset-env
+> https://preset-env.cssdb.org/
+> https://www.postcss.parts
 - [ ] Testing
 
 ### CSS4 Awesomeness
