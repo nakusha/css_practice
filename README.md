@@ -16,7 +16,7 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
 - [X] Auto columns, auto rows
 - [X] Template Areas
 - [X] fr unit, repeat
-- [ ] minmax, max-content, min-content
+- [X] minmax, max-content, min-content
 - [ ] auto-fill, auto-fit
 - [ ] Justify Content, Align Content and Place Content
 - [ ] Justify Items, Align Items and Place Items
