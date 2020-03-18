@@ -9,7 +9,8 @@ li:first-child a{
      color:var(--awesomeColor);
      border:var(--borderColor);
  }
-
+ */
+ /*
  matches & not
  li:matches(:nth-child(even), .target){
     background-color: blue;
@@ -17,7 +18,8 @@ li:first-child a{
 li:not(.target){
     background-color: blue;
 }
- 
+ */
+ /*
  Custom Selector
  @custom-selector :--headers h1, h2, h3, h4;
 
@@ -37,7 +39,7 @@ li:not(.target){
  }
 
  */
-/* Color Mod*/
+/* Color Mod
  h1 {
     color:#f1c40f;
     &:hover{
@@ -51,4 +53,25 @@ li:not(.target){
 
  h3 {
      font-family:system-ui;
+ }
+ */
+
+ /* Nesting Rules */
+ main {
+    background-color: blue;
+
+    & section{
+        background-color: red;
+        width:500px;
+        & li{
+            background-color: yellow;
+            width:400px;
+            & a{
+                color:black;
+                &:hover{
+                    font-size:20px;
+                }
+            }
+        }
+    }
  }

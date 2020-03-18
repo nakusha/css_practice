@@ -59,7 +59,7 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
   },
 > color-mod 예제
 > https://www.w3.org/TR/css-color-4/#numeric-rgb
-- [ ] Nesting Rules
+- [X] Nesting Rules
 
 ### Conclusions
 
