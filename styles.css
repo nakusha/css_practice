@@ -21,3 +21,13 @@ li:not(.target){
  :--headers{
      color:#8e44ad;
  }
+
+ /* @custom-media --middle-size (max-width: 850px); */
+ /* @custom-media --middle-size (width <= 850px); */
+ @custom-media --middle-size (550px <= width < 850px);
+
+ @media(--middle-size){
+     body{
+         background-color: red;
+     }
+ }
