@@ -9,9 +9,17 @@
             .father{
                 /* flex box는 부모 객체의 바로 자식 관계의 item에만 해당된다. */
                 display:flex;
-                /* flex-end, flex-start 박스의 시작과 끝에 붙임
-                space-between 양쪽끝 space-around일정간격 */
-                justify-content: space-around;
+                /* flex-direction은 axis를 수정할 수 있다. */
+                flex-direction: column;
+                /* 
+                justify-content : 수평정렬
+                flex-end, flex-start 박스의 시작과 끝에 붙임
+                space-between 양쪽끝 space-around일정간격 
+                */
+                justify-content: space-between;  /* main axis 수평 축 */
+                /* 수직 정렬 */
+                align-items: center;            /* corss axis 수평 축 */
+                height:100vh;
             }
             .box{
                 width: 300px;
