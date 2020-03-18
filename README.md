@@ -23,8 +23,8 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
 - [X] Grid Column, Column Start and End
 - [X] Line Naming
 - [X] Grid Row, Row Start and End
-- [ ] Grid Area
-- [ ] Justify, Align, Place Self
+- [X] Grid Area
+- [X] Justify, Align, Place Self
 
 ### Using CSS4
 
