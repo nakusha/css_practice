@@ -40,8 +40,8 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
 ### CSS4 Awesomeness
 
 - [X] :matches , :not
-- [ ] CSS Variables
-- [ ] @custom-selector
+- [X] CSS Variables
+- [X] @custom-selector
 - [ ] @custom-media
 - [ ] Media Query Ranges
 - [ ] color-mod, gray(), system-ui

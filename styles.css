@@ -1,10 +1,23 @@
-body{
-    background-color: peachpuff;
+:root{
+    --awesomeColor:#2980b9;
+    --borderColor:1px solid var(--awesomeColor);
 }
+
 /* li:matches(:nth-child(even), .target){
     background-color: blue;
-} */
-
+}
 li:not(.target){
     background-color: blue;
 }
+ */
+
+ li:first-child a{
+     color:var(--awesomeColor);
+     border:var(--borderColor);
+ }
+
+ @custom-selector :--headers h1, h2, h3, h4;
+
+ :--headers{
+     color:#8e44ad;
+ }
