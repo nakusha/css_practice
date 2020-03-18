@@ -1,33 +1,54 @@
+/*
+CSS Variable
 :root{
     --awesomeColor:#2980b9;
     --borderColor:1px solid var(--awesomeColor);
 }
+using variable
+li:first-child a{
+     color:var(--awesomeColor);
+     border:var(--borderColor);
+ }
 
-/* li:matches(:nth-child(even), .target){
+ matches & not
+ li:matches(:nth-child(even), .target){
     background-color: blue;
 }
 li:not(.target){
     background-color: blue;
 }
- */
-
- li:first-child a{
-     color:var(--awesomeColor);
-     border:var(--borderColor);
- }
-
+ 
+ Custom Selector
  @custom-selector :--headers h1, h2, h3, h4;
 
  :--headers{
      color:#8e44ad;
  }
 
- /* @custom-media --middle-size (max-width: 850px); */
- /* @custom-media --middle-size (width <= 850px); */
+ custom Media Query And Range
+ @custom-media --middle-size (max-width: 850px); 
+ @custom-media --middle-size (width <= 850px); 
  @custom-media --middle-size (550px <= width < 850px);
 
  @media(--middle-size){
      body{
          background-color: red;
      }
+ }
+
+ */
+/* Color Mod*/
+ h1 {
+    color:#f1c40f;
+    &:hover{
+        color:color-mod(#f1c40f lightness(80%));
+    }
+ }
+
+ h2{
+    color:gray(100);
+ }
+
+ h3 {
+     font-family:system-ui;
  }

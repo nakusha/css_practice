@@ -44,7 +44,21 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
 - [X] @custom-selector
 - [X] @custom-media
 - [X] Media Query Ranges
-- [ ] color-mod, gray(), system-ui
+- [X] color-mod, gray(), system-ui
+> yarn add postcss-color-mod-function -D
+>> package.json 설정 추가
+>>"postcss": {
+    "plugins": {
+      "postcss-preset-env": {
+        "stage": 0
+      },
+      "postcss-color-mod-function":{
+        
+      }
+    }
+  },
+> color-mod 예제
+> https://www.w3.org/TR/css-color-4/#numeric-rgb
 - [ ] Nesting Rules
 
 ### Conclusions
