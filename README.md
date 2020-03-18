@@ -63,9 +63,12 @@ CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)
 
 ### Conclusions
 
-- [ ] CSS Grid Kiss
-- [ ] Practice Flexbox
-- [ ] Practice Grid
+- [X] CSS Grid Kiss
+>https://github.com/sylvainpolletvillard/postcss-grid-kiss#readme
+- [X] Practice Flexbox
+>https://flexboxfroggy.com
+- [X] Practice Grid
+>https://cssgridgarden.com
 
 ### Exercices
 
